@@ -1,0 +1,102 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    background-color: rgb(253, 246, 237);
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    font-size: 14pt;
+    height: 1%;
+}
+textarea{
+    font-size: 14pt;
+}
+label{
+    font-size: 14pt;
+}
+select{
+    font-size: 14pt;
+}
+a{
+    color: black;
+    font-size: 14pt;
+}
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+table{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+th{
+    font-size: 14pt;
+}
+td{
+    font-size: 14pt;
+}
+header > h1{
+    text-align: center;
+    margin: 5% auto;
+    font-size: 30pt;
+}
+/*main.jsp*/
+#mainNav{
+    display: inline;
+    position: relative;
+    top: 2%;
+    left: 60%;
+}
+#mainNav > p{
+    display: inline;
+}
+#mainTable{
+    text-align: center;
+}
+#articleForm1{
+    padding: 1%;
+    position: relative;
+    margin: 1% auto;
+    width: 80%;
+}
+#articleForm1 button{
+    font-size: 14pt;
+}
+#searchBtn{
+    font-size: 14pt;
+}
+#centerButton{
+    margin-top: 1%;
+    text-align: center;
+}
+/*rwpage.jsp*/
+#rwArticle > form{
+    border: 3px solid black;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+}
+.tdTitle{
+    text-align: right;
+    padding-right: 1%;
+}
+.tdData{
+    padding-left: 1%;
+}
+#rwNav{
+    margin-top: 1%;
+    margin-left: 8%;
+}
+/*login.jsp*/
+#loginArticle{
+    border: 3px solid black;
+    padding: 1%;
+    margin: 0 5%;
+}
+#loginArticle > form{
+    text-align: center;
+}
